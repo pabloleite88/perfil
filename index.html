@@ -6,6 +6,7 @@
     <meta name="author:" content="Pablo Luis Araujo Leite">
     <meta name="description" content="Primeira página web criada no curso Universo Front-end">
     <link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
     <header>
@@ -26,9 +27,37 @@
         <li>GitHub: <a target="_blank" href="https://github.com/pabloleite88">Clique aqui</a></li>
       </ul>
     </section>
+    <section>
+      <h3>Mensagem:</h3>
+      <!-- <form class="" action="index.html" method="post"> -->
+      <form>
+        <fieldset>
+          <legend>Formulario de Mensagem</legend>
+          <p>
+            <label for="">Nome:</label>
+            <input type="text" name="" value="" placeholder="Digite seu nome:" id="formNome">
+          </p>
+          <p>
+            <label for="">E-mail:</label>
+            <input type="email" name="" value="" placeholder="email@email.com" id="formEmail">
+          </p>
+          <p>
+            <label for="">Telefone:</label>
+            <input type="tel" name="" value="" placeholder="(DDD)+Numero" id="formTel">
+          </p>
+          <p>
+            <textarea name="name" id="Mensagem" placeholder="Deixe sua Mensagem"></textarea>
+          </p>
+          <p>
+            <input type="submit" name="" onclick="enviar()" value="Enviar">
+          </p>
+        </fieldset>
+      </form>
+    </section>
     <footer>
       <p class="texto-centro">Desenvolvido em 2018</p>
     </footer>
-
+    <script src="js/formulario.js">
+    </script>
   </body>
 </html>
